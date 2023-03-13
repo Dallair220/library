@@ -10,9 +10,11 @@ function addBookToLibrary(book) {
   myLibrary.push(book);
 }
 
-function output
+function output() {
+  // do something
+}
 
-const b1 = new Book('Paul', 'We did it!', 245);
+const b1 = new Book('ok', 'We did it!', 245);
 addBookToLibrary(b1);
 const b2 = new Book('Jones', 'Nice!', 234);
 addBookToLibrary(b2);
@@ -21,7 +23,4 @@ addBookToLibrary(b3);
 const b4 = new Book('Das', 'Hot!', 3457);
 addBookToLibrary(b4);
 
-console.log (myLibrary);
-
-
-
+console.log(myLibrary);
