@@ -5,25 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <div class="popup">
+      <form action="">
+        <label for="">Title</label>
+        <input type="text" class="title" name="title" id="title" />
+
+        <label for="author"> Author </label>
+        <input type="text" name="author" id="author" />
+
+        <label for="pages"> Pages </label>
+        <input type="number" name="pages" id="pages" />
+
+        <label for="read"> Read? </label>
+        <input type="checkbox" name="read" id="read" />
+
+        <button type="submit" class="sub">Submit</button>
+      </form>
+    </div>
     <table>
       <caption>
         <h1>Library</h1>
+        <button class="new">New Book</button>
       </caption>
-      <tr>
-        <thead>
+      <thead>
+        <tr>
           <th>Title</th>
           <th>Author</th>
           <th>Pages</th>
           <th>Read?</th>
-          <th>Edit</th>
-          <th>Delete</th>
-        </thead>
-        <tbody></tbody>
-      </tr>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody></tbody>
     </table>
   </body>
 </html>

@@ -1,12 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,300;1,400&display=swap');
+
 html {
-  font-family: sans-serif;
+  font-family: roboto, sans-serif;
 }
 
 table {
   border-collapse: collapse;
   border: 2px solid rgb(200, 200, 200);
   letter-spacing: 1px;
-  font-size: 0.8rem;
+  font-size: 1.2rem;
   margin: auto;
 }
 
@@ -34,4 +36,90 @@ tr:nth-child(odd) td {
 
 caption {
   padding: 10px;
+  font-size: 25px;
+}
+
+button {
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.delete {
+  background-color: rgb(209, 26, 42);
+  color: white;
+}
+
+.delete:hover {
+  background-color: red;
+}
+
+.read:hover,
+th:hover {
+  background-color: rgb(220, 220, 220);
+}
+
+.new {
+  background-color: rgb(235, 235, 235);
+  font-weight: bold;
+  width: 50%;
+  font-size: 20px;
+}
+
+.new:hover {
+  background-color: lightskyblue;
+}
+
+.popup {
+  display: none;
+  position: absolute;
+  background-color: rgb(235, 235, 235);
+  border: solid rgb(190, 190, 190);
+  border-radius: 10px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: min-content;
+  height: min-content;
+  top: 17%;
+}
+
+form {
+  display: grid;
+  gap: 5px;
+  align-items: start;
+  margin: 50px;
+}
+
+h2 {
+  margin: 0px;
+  margin-bottom: 30px;
+}
+
+form > * {
+  justify-self: center;
+}
+
+label {
+  align-self: end;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+input {
+  width: 250px;
+  height: 25px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  border: solid rgb(190, 190, 190);
+}
+
+.sub:hover {
+  background-color: rgb(220, 220, 220);
+}
+
+.sub {
+  font-size: 20px;
+  width: 50%;
 }
