@@ -1,0 +1,4 @@
+# EditorConfig for Prettier
+
+[*]
+quote_type = single
